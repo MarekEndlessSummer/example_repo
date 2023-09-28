@@ -20,3 +20,9 @@ Promien_r = 10;
 obwod_kolo = 2*math.pi*Promien_r
 pole_kolo = math.pi*Promien_r**2
 print("Obwod koła wynosi " + str(obwod_kolo) + ", zas pole wynisi " + str(pole_kolo) + ".")
+
+
+d= 10
+obwod_trapez = Bok_a+Bok_b+Bok_c+d
+pole_trapez = ((Bok_a+Bok_b)*Wysokosc_h)/2
+print("Obwod trapezu wynosi " + str(obwod_trapez) + ", zas pole wynisi " + str(pole_trapez) + ".")
