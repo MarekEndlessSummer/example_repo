@@ -30,4 +30,4 @@ moj_samochod.przyspiesz(40)
 print(f"Aktualna prędkość po przyspieszeniu: {moj_samochod.aktualna_predkosc} km/h")
 
 moj_samochod.zwolnij(20)
-print(f"Aktualna prędkość po zwolnieniu: {moj_samochod.aktualna_predkosc} km/h")
+print(f"Aktualna prędkość po zwolnieni: {moj_samochod.aktualna_predkosc} km/h")
