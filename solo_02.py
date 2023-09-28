@@ -1,5 +1,5 @@
-# trojkat
 import math
+
 Bok_a = 10
 Bok_b = 20
 Bok_c = 15
@@ -20,6 +20,12 @@ obwod_kolo = 2*math.pi*Promien_r
 pole_kolo = math.pi*Promien_r**2
 print("Obwod koła wynosi " + str(obwod_kolo) + ", zas pole wynisi " + str(pole_kolo) + ".")
 
+
+d= 10
+obwod_trapez = Bok_a+Bok_b+Bok_c+d
+pole_trapez = ((Bok_a+Bok_b)*Wysokosc_h)/2
+print("Obwod trapezu wynosi " + str(obwod_trapez) + ", zas pole wynisi " + str(pole_trapez) + ".")
+
 obwod_romb = 2*Bok_a+2*Bok_b
-pole_romb = Bok_a*Wysokosc_h
+pole_romb = Bok_a*Bok_b
 print("Obwod romb wynosi " + str(obwod_romb) + ", zas pole wynisi " + str(pole_romb) + ".")
