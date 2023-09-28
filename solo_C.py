@@ -52,4 +52,4 @@ def oblicz_calkowity_koszt(lista_pracownikow):
 pracownicy = odczytaj_pracownikow_z_pliku('pracownicy.csv')
 koszt = oblicz_calkowity_koszt(pracownicy)
 
-print(f"Calkowity koszt pracodawcy: {koszt} zl")
+print(f"Calkowity koszt pracodawcy: {koszt} zł")
